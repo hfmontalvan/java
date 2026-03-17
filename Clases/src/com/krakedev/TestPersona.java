@@ -10,8 +10,6 @@ public class TestPersona {
 		p=new Persona();
 		p1= new Persona();
 		
-
-		
 		System.out.println("Nombre: "+p.nombre);
 		System.out.println("Edad: "+p.edad);
 		System.out.println("estatura: "+p.estatura);
