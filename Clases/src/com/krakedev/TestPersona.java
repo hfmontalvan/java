@@ -1,5 +1,7 @@
 package com.krakedev;
 
+import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
+
 public class TestPersona {
 
 	public static void main(String[] args) {
@@ -22,13 +24,11 @@ public class TestPersona {
 		p.nombre="María";
 		p.edad=45;
 		p.estatura=1.70;
-		
+	
 		System.out.println("-------------------------");
 		System.out.println("Nombre: "+p.nombre);
 		System.out.println("Edad: "+p.edad);
 		System.out.println("estatura: "+p.estatura);
-		
-		
 	}
 
 }
