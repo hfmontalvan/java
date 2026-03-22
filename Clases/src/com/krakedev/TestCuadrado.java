@@ -11,8 +11,8 @@ public class TestCuadrado {
 		double areac2;
 		double areac3;
 		
-		c1 = new Cuadrado();
-		c1.setLado(5);
+		c1 = new Cuadrado(10);
+		//c1.setLado(10);
 		areac1 = c1.calcularArea();
 		peri1 = c1.calcularPerimetro();
 		

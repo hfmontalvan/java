@@ -3,11 +3,10 @@ package com.krakedev;
 public class TestPersona {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Persona p;
 		Persona p1;
 		
-		p=new Persona();
+		p=new Persona("Henry", 30, 1.70);
 		p1= new Persona();
 		
 		System.out.println("Nombre: "+p.getNombre());
@@ -18,6 +17,7 @@ public class TestPersona {
 		System.out.println("Nombre: "+p1.getNombre());
 		System.out.println("Edad: "+p1.getEdad());
 		System.out.println("estatura: "+p1.getEstatura());
+		
 		p.setNombre("MaríaMercedes");
 		p.setEdad(55);
 		p.setEstatura(2);

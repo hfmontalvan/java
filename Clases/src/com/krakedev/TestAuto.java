@@ -3,17 +3,15 @@ package com.krakedev;
 public class TestAuto {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Auto auto1;
 		Auto auto2;
 		
-		auto1 = new Auto();
-		auto2 = new Auto();
-		
+		auto1 = new Auto("KIA", 2010, 10000);
+		auto2 = new Auto();		
 	
-		auto1.setMarca("KIA");
+		/*auto1.setMarca("KIA");
 		auto1.setAnio(2001);
-		auto1.setPrecio(10000);
+		auto1.setPrecio(10000);*/
 		
 		System.out.println("Marca: "+auto1.getMarca());
 		System.out.println("Año: "+auto1.getAnio());
