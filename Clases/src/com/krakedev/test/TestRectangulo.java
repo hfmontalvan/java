@@ -1,9 +1,10 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Rectangulo;
 
 public class TestRectangulo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Rectangulo r1 = new Rectangulo();
 		Rectangulo r2 = new Rectangulo();
 		Rectangulo r3 = new Rectangulo();
