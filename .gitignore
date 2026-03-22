@@ -1,0 +1,11 @@
+# Eclipse
+.metadata/
+*.log
+
+# Java
+bin/
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
