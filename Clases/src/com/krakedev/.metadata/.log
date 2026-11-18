@@ -1,0 +1,110 @@
+!SESSION 2026-03-22 08:17:45.833 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=25.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_EC
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-22 08:18:11.979
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-22 08:19:41.424
+!MESSAGE Logback config file: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases\src\com\krakedev\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-03-22 08:19:53.224
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\fmsoto'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2026-03-22 08:19:54.650
+!MESSAGE Failed to obtain 'WinDefend' service state
+!STACK 0
+java.io.IOException: Process timed-out and it was attempted to forcefully terminate it
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runProcess(WindowsDefenderConfigurator.java:395)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runPowershell(WindowsDefenderConfigurator.java:369)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderServiceRunning(WindowsDefenderConfigurator.java:302)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:159)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:106)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-03-22 08:23:28.122
+!MESSAGE Invalid project description for project 'Clases' at 'file:/C:/Users/fmsoto/Desktop/Krakedev%20Nivel%201/java/Clases' 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'Clases' at 'file:/C:/Users/fmsoto/Desktop/Krakedev%20Nivel%201/java/Clases' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:219)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:316)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:302)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2528)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: OK
+Contains: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases overlaps the workspace location: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases\src\com\krakedev
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-03-22 08:23:28.123
+!MESSAGE Invalid project description for project 'Clases' at 'file:/C:/Users/fmsoto/Desktop/Krakedev%20Nivel%201/java/Clases' 
+!SUBENTRY 2 unknown 0 0 2026-03-22 08:23:28.123
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2026-03-22 08:23:28.123
+!MESSAGE C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases overlaps the workspace location: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases\src\com\krakedev
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-03-22 08:23:52.181
+!MESSAGE Invalid project description for project 'Clases' at 'file:/C:/Users/fmsoto/Desktop/Krakedev%20Nivel%201/java/Clases' 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'Clases' at 'file:/C:/Users/fmsoto/Desktop/Krakedev%20Nivel%201/java/Clases' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:219)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:316)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:302)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2528)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: OK
+Contains: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases overlaps the workspace location: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases\src\com\krakedev
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-03-22 08:23:52.181
+!MESSAGE Invalid project description for project 'Clases' at 'file:/C:/Users/fmsoto/Desktop/Krakedev%20Nivel%201/java/Clases' 
+!SUBENTRY 2 unknown 0 0 2026-03-22 08:23:52.181
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2026-03-22 08:23:52.181
+!MESSAGE C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases overlaps the workspace location: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases\src\com\krakedev
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-03-22 08:24:31.452
+!MESSAGE Invalid project description for project 'Clases' at 'file:/C:/Users/fmsoto/Desktop/Krakedev%20Nivel%201/java/Clases' 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'Clases' at 'file:/C:/Users/fmsoto/Desktop/Krakedev%20Nivel%201/java/Clases' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:219)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:316)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:302)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2528)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: OK
+Contains: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases overlaps the workspace location: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases\src\com\krakedev
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-03-22 08:24:31.452
+!MESSAGE Invalid project description for project 'Clases' at 'file:/C:/Users/fmsoto/Desktop/Krakedev%20Nivel%201/java/Clases' 
+!SUBENTRY 2 unknown 0 0 2026-03-22 08:24:31.452
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2026-03-22 08:24:31.452
+!MESSAGE C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases overlaps the workspace location: C:\Users\fmsoto\Desktop\Krakedev Nivel 1\java\Clases\src\com\krakedev
